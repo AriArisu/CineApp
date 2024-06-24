@@ -1,11 +1,11 @@
 import data from '../../artigos.json'
-import Laçamento from '../components/Lançamento/Lançamento';
+import Lacamento from '../components/Lancamento/Lancamento';
 
 function Home() {
     return ( 
         <>
         <div className="grid grid-cols-3">
-            <Laçamento/>
+            <Lacamento/>
         {
             data.map(
                 (filme, index)=>(
@@ -20,7 +20,7 @@ function Home() {
                         <div className='tags'>
                         {
                             filme.tags.map( tag =>(
-                                <span className='bg-pink-800 text-white p-1 m-1' key={tag}>{tag}</span>
+                                <span className='bg-pink-800 text-white p-1 m-1 rounded-xl' key={tag}>{tag}</span>
                             ))
                         }
                         </div>

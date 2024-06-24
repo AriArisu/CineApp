@@ -1,11 +1,11 @@
-import Apresentacao from "../components/Apresentação/Apresentacao";
+import Apresentacao from "../components/Apresentacao/Apresentacao";
 import Fotter from "../components/Footer/Fotter";
-import Formulário from "../components/Formulário/formulário";
+import Formulario from "../components/Formulario/Formulario";
 function Contato() {
     return ( 
 <>
         <Apresentacao/>
-        <Formulário/>
+        <Formulario/>
         <Fotter/>
         
 </>
