@@ -7,7 +7,6 @@ function App() {
   return (
     <>
     <Header/>
-    <br/>
     <div className=" flex-row ">
     <Outlet/>
     </div>

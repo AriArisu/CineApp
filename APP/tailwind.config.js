@@ -10,7 +10,12 @@ export default {
         'primary': '#7F54B5',
         '2': '#B085DA',
         '3': '#DEC2F4',
-      }
+      },
+
+fontFamily:{
+  body: ['Montserrat']
+}
+
     },
   },
   plugins: [],

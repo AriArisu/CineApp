@@ -4,13 +4,17 @@ import Lacamento from '../components/Lancamento/Lancamento';
 function Home() {
     return ( 
         <>
+
+<Lacamento/>
         <div className="grid grid-cols-3">
-            <Lacamento/>
+        
         {
+
+
             data.map(
                 (filme, index)=>(
                     <>
-                    <div className="card m-2" key={index}>
+                    <div className="card m-1" key={index}>
                         <h1>{filme.title}</h1>
                         {filme.image ?
                             <img src={filme.image}></img>

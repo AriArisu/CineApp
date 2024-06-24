@@ -1,16 +1,17 @@
 function Pesquisa() {
     return ( 
         <>
-    <div className=" max-w h-32  mx-auto bg-primary text-black p-4 flex-row justify-center h-9">
+    <div className="bg-primary text-black">
 
-    <select class=" max-w-sm mx-auto" >
-  <option>1</option>
-  <option>2</option>
-  <option>3</option>
-  <option>4</option>
+<div className="rounded-md flex-row justify-center">
+    <select label = "Select">
+  <option>Ação</option>
+  <option>Infantil</option>
+  <option>Trilogias</option>
+  <option>Mistério</option>
 </select>
-
 </div>
+        </div>
         </>
      );
 }
