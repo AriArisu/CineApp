@@ -1,10 +1,10 @@
 function Pesquisa() {
     return ( 
         <>
-    <div className="bg-primary text-black">
+    <div className="bg-primary text-black h-28 flex flex-row  justify-center itens-center">
 
-<div className="rounded-md flex-row justify-center">
-    <select label = "Select">
+<div >
+    <select label = "Select" className=" flex flex-row justify-center m-10 rounded-2xl items-center ">
   <option>Ação</option>
   <option>Infantil</option>
   <option>Trilogias</option>
